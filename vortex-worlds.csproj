@@ -41,11 +41,11 @@
             <Private>False</Private>
         </Reference>
         <Reference Include="assembly_utils, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Valheim-debug\valheim_Data\Managed\publicized_assemblies\assembly_utils_publicized.dll</HintPath>
+            <HintPath>lib\unstripped_managed\assembly_utils_publicized.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="assembly_valheim, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Valheim-debug\valheim_Data\Managed\publicized_assemblies\assembly_valheim_publicized.dll</HintPath>
+            <HintPath>lib\unstripped_managed\assembly_valheim_publicized.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="BepInEx, Version=5.4.8.0, Culture=neutral, PublicKeyToken=null">
@@ -61,11 +61,11 @@
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Valheim\unstripped_managed\UnityEngine.dll</HintPath>
+            <HintPath>lib\unstripped_managed\UnityEngine.dll</HintPath>
             <Private>False</Private>
         </Reference>
         <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-            <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Valheim\unstripped_managed\UnityEngine.CoreModule.dll</HintPath>
+            <HintPath>lib\unstripped_managed\UnityEngine.CoreModule.dll</HintPath>
             <Private>False</Private>
         </Reference>
     </ItemGroup>

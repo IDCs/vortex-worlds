@@ -13,7 +13,7 @@ namespace VortexWorlds
     public static class ModInfo
     {
         public const string Name = "Vortex Worlds";
-        public const string Version = "1.0.0";
+        public const string Version = "1.0.1";
     }
 
     [BepInPlugin("vortex-worlds", ModInfo.Name, ModInfo.Version)]
@@ -27,9 +27,8 @@ namespace VortexWorlds
         private void Awake()
         {
             // Sync files from the vortex-worlds folder to the worlds folder
-            var vortexWorldsDir = Path.Combine(Utils.GetSaveDataPath(), VortexWorldsDir);
+            var vortexWorldsDir = Path.Combine(Application.dataPath, "..", VortexWorldsDir);
             var valheimWorldsDir = Path.Combine(Utils.GetSaveDataPath(), "worlds");
-
             if (!Directory.Exists(vortexWorldsDir))
             {
                 // Definitely nothing for us to do if the directory doesn't exist...
